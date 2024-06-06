@@ -133,11 +133,9 @@ int main(int argc, char* argv[])
 
     auto duration = duration_cast<microseconds>((stop - start)/100);
 
-// To get the value of duration use the count()
-// member function on the duration object
-cout << "time: " << duration.count() << endl;
-//42
-//135440
+    // To get the value of duration use the count()
+    // member function on the duration object
+    cout << "time: " << duration.count() << endl;
 
     return 0;
 }
